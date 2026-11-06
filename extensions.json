@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "author": "DHaiPhong",
+    "description": "Extension vBook của DHaiPhong"
+  },
+  "data": [
+    {
+      "name": "Fanqie 番茄小说",
+      "author": "PhongHome",
+      "path": "https://raw.githubusercontent.com/DHaiPhong/vbook-fanqie/main/plugin.zip",
+      "version": 1,
+      "source": "https://fanqienovel.com",
+      "icon": "https://raw.githubusercontent.com/DHaiPhong/vbook-fanqie/main/icon.png",
+      "description": "Đọc truyện chữ từ fanqienovel.com (番茄小说). Khách chỉ đọc được vài chương đầu.",
+      "type": "novel",
+      "locale": "zh_CN"
+    }
+  ]
+}

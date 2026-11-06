@@ -8,10 +8,10 @@
       "name": "Fanqie 番茄小说",
       "author": "PhongHome",
       "path": "https://raw.githubusercontent.com/DHaiPhong/vbook-fanqie/main/plugin.zip",
-      "version": 1,
+      "version": 2,
       "source": "https://fanqienovel.com",
       "icon": "https://raw.githubusercontent.com/DHaiPhong/vbook-fanqie/main/icon.png",
-      "description": "Đọc truyện chữ từ fanqienovel.com (番茄小说). Khách chỉ đọc được vài chương đầu.",
+      "description": "Đọc truyện chữ từ fanqienovel.com (番茄小说). Chương sau chương ~10 đọc qua proxy bên thứ ba.",
       "type": "novel",
       "locale": "zh_CN"
     }

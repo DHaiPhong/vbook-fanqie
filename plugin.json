@@ -2,9 +2,9 @@
   "metadata": {
     "name": "Fanqie 番茄小说",
     "author": "PhongHome",
-    "version": 1,
+    "version": 2,
     "source": "https://fanqienovel.com",
-    "description": "Đọc truyện chữ từ fanqienovel.com (番茄小说). Khách chỉ đọc được vài chương đầu, cần cookie đăng nhập để đọc tiếp.",
+    "description": "Đọc truyện chữ từ fanqienovel.com (番茄小说). Các chương sau chương ~10 đọc qua máy chủ proxy bên thứ ba (đổi được trong cài đặt).",
     "locale": "zh_CN",
     "regexp": "(https?://)?(www\\.)?fanqienovel\\.com/(page|reader)/\\d+",
     "type": "novel"
@@ -21,6 +21,11 @@
     "DOMAIN": {
       "title": "Tên miền",
       "default": "https://fanqienovel.com",
+      "mode": "input"
+    },
+    "PROXY": {
+      "title": "Máy chủ nội dung (proxy bên thứ ba cho chương sau chương ~10; xoá trống để chỉ đọc qua fanqienovel.com)",
+      "default": "https://gofq.52dns.cc",
       "mode": "input"
     },
     "COOKIE": {

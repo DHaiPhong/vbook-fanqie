@@ -19,6 +19,16 @@ try {
 } catch (error) {
 }
 
+// Máy chủ proxy bên thứ ba trả nội dung chương theo id (GET /content?item_id=), dùng cho chương khách không đọc được.
+// Để trống để chỉ đọc qua trang chính thức. Chỉ id chương được gửi đi.
+let PROXY_URL = "https://gofq.52dns.cc";
+try {
+    if (typeof PROXY !== "undefined") {
+        PROXY_URL = String(PROXY).trim().replace(/\/+$/, "");
+    }
+} catch (error) {
+}
+
 const PAGE_SIZE = 18;
 
 function normalizeUrl(url) {

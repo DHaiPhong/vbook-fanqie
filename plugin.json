@@ -2,7 +2,7 @@
   "metadata": {
     "name": "Fanqie 番茄小说",
     "author": "PhongHome",
-    "version": 2,
+    "version": 3,
     "source": "https://fanqienovel.com",
     "description": "Đọc truyện chữ từ fanqienovel.com (番茄小说). Các chương sau chương ~10 đọc qua máy chủ proxy bên thứ ba (đổi được trong cài đặt).",
     "locale": "zh_CN",
